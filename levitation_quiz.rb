@@ -5,8 +5,8 @@ end
 
 
 def greeting
-    puts "Please type your name:"
-    name = gets.chomp
+    puts "What is the spell that enacts levitation?"
+    answer = gets.chomp
     puts "Your name is #{name}!"
 end
  
