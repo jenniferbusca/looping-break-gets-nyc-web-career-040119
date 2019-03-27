@@ -10,7 +10,7 @@ def greeting
     if answer == "Wingardium Leviosa"
       break
     else
-      puts "Your name is #{name}!"
+      puts "You passed the quiz!"
 end
  
 greeting 
