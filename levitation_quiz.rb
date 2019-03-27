@@ -7,7 +7,10 @@ end
 def greeting
     puts "What is the spell that enacts levitation?"
     answer = gets.chomp
-    puts "Your name is #{name}!"
+    if answer == "Wingardium Leviosa"
+      break
+    else
+      puts "Your name is #{name}!"
 end
  
 greeting 
